@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(50, 49, 49);
+}
+
+.container {
+    width: 500px;
+    height: 540px;
+    margin: 40px auto 0;
+}
+
+.item1 {
+    width: 450px;
+    height: 90px;
+    margin: 15px auto;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px  white;
+}
+
+.item2 {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item2-inner1, .item2-inner2, .item2-inner3 {
+    height: 200px;
+}
+
+.item2-inner1, .item2-inner3 {
+    width: 90px;
+}
+
+.item2-inner2 {
+    width: 180px;
+}
+
+button {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(183, 171, 171);
+}
+
+#white {
+    background-color: white;
+}
+
+#yellow {
+    background-color: gold;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+}
+
+.item4 {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 37, 37);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.item5 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: inline-block;
+    color: rgb(183, 171, 171);
+    font-size: 20px;
+}
+
+span {
+    color: gold;
+}
+
+@media (max-width: 520px) {
+    .container {
+        width: 380px;
+    }
+
+    .item1 {
+        width: 360px;
+    }
+
+    .item2-inner1, .item2-inner2, .item2-inner3 {
+        height: 150px;
+    }
+
+    button {
+        margin: 5px;
+    }
+}
+
