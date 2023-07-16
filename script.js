@@ -7,7 +7,7 @@ buttons.forEach( (i) => {
         let movieType = document.getElementById('movie');
 
         i.addEventListener('click', function click() {
-            i.style.backgroundColor = 'gold'; 
+            i.style.backgroundColor = 'gold';
             ticketNumber++;    
             
             i.removeEventListener('click', click);
